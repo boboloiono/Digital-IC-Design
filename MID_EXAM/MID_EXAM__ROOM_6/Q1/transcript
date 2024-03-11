@@ -1,0 +1,39 @@
+# Load canceled
+# Compile of BITONIC_tb.sv was successful.
+# Compile of BITONIC_S3.v was successful.
+# Compile of BITONIC_S2.v was successful.
+# Compile of BITONIC_S1.v was successful.
+# Compile of BITONIC_DS.v was successful.
+# Compile of BITONIC_AS.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.BITONIC_tb
+# vsim -gui work.BITONIC_tb 
+# Start time: 12:28:12 on Apr 18,2023
+# Loading sv_std.std
+# Loading work.BITONIC_tb
+# Loading work.BITONIC_AS
+# Loading work.BITONIC_DS
+# Loading work.BITONIC_S1
+# Loading work.BITONIC_S2
+# Loading work.BITONIC_S3
+# WARNING: No extended dataflow license exists
+run -all
+# --------------- Simulation Start ----------------
+# --           Acending Swapper PASS!            --
+# --           Descending Swapper PASS!          --
+# -------------------------------------------------
+# --           Stage 1 Simulation finish         --
+# --                  Stage 1 PASS!              --
+# -------------------------------------------------
+# --           Stage 2 Simulation finish         --
+# --                  Stage 2 PASS!              --
+# -------------------------------------------------
+# --           Stage 3 Simulation finish         --
+# --                  Stage 3 PASS!              --
+# --------------- Simulation End  -----------------
+# ** Note: $finish    : C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv(326)
+#    Time: 1676900 ns  Iteration: 0  Instance: /BITONIC_tb
+# 1
+# Break in Module BITONIC_tb at C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv line 326
+# End time: 12:29:04 on Apr 18,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 5

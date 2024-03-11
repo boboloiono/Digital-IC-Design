@@ -1,0 +1,160 @@
+module rails(clk, reset, number, data1, data2, valid, result1, result2);
+
+input        clk;
+input        reset;
+input  [3:0] number;
+input  [3:0] data1;
+input  [3:0] data2;
+output  reg     valid;
+output  reg     result1; 
+output  reg     result2;
+
+
+  localparam NUMBER_IN = 4'd0;
+  localparam DATA_IN = 4'd1;
+  localparam STATION_POP_1 = 4'd2;
+  localparam STATION_PUSH_1 = 4'd3;
+  localparam OUT_1 = 4'd4;
+  localparam WAIT_1 = 4'd5;
+  localparam STATION_POP_2 = 4'd6;
+  localparam STATION_PUSH_2 = 4'd7;
+  localparam OUT_2 = 4'd8;
+  localparam WAIT_2 = 4'd9;
+
+  reg [3:0] state, nextState;
+  reg [3:0] num;            // record the number of coming trains
+  reg [3:0] index_1;          // index_1 of sequence of departure order_1
+  reg [3:0] order_1 [9:0];    // data array to store departure order_1
+  reg [3:0] station_index_1;  // index_1 of the stack
+  reg [3:0] station_index_2;  // index_1 of the stack
+  reg [3:0] station_1 [9:0];  // data array that acts as stack
+  reg [3:0] station_2 [9:0];  // data array that acts as stack
+  reg [3:0] sequence_index_1; // count of arrived trains
+  reg [3:0] sequence_index_2; // count of arrived trains
+  
+  wire [3:0] station_index_1_minus_one = station_index_1-4'd1;
+  wire [3:0] station_index_2_minus_one = station_index_2-4'd1;
+
+  integer i;
+
+  always @(*) begin
+    case(state)
+      NUMBER_IN: begin
+        nextState = DATA_IN;
+      end
+      // All data had been read
+      DATA_IN: begin
+        if(index_1 == num -1 || index_2 == num -1 ) nextState = STATION_PUSH;
+        else nextState = DATA_IN;
+      end
+      STATION_POP_1: begin
+        // TOP of stack == current departure number
+        if(station_index_1>0 && station_1[station_index_1_minus_one] == order_1[index_1]) nextState = STATION_POP_1;
+        else nextState = STATION_PUSH_1;
+      end
+      STATION_PUSH_1: begin
+        // All trains have arrived at the station
+        if(sequence_index_1 == num) nextState <= OUT_1;
+        else if(station_index_1 == 6 + 1) nextState = STATION_POP_1;
+        else nextState = STATION_POP_1;
+      end
+      OUT_1: begin
+        if(index_1 == num) nextState = STATION_POP_2;
+        else nextState = WAIT_2;
+      end
+      STATION_POP_2: begin
+        // TOP of stack == current departure number
+        if(station_index_2>0 && station_2[station_index_2_minus_one] == order_2[index_2]) nextState = STATION_POP_2;
+        else nextState = STATION_PUSH_2;
+      end
+      STATION_PUSH_2: begin
+        // All trains have arrived at the station
+        if(sequence_index_2 == num) nextState <= OUT_2;
+        else if(station_index_2 == 3 + 1) nextState = STATION_POP_2;
+      end
+      OUT_2: begin
+        nextState = WAIT_2;
+      end
+      default: begin
+        nextState = NUMBER_IN;
+      end
+    endcase
+  end  
+
+  always @(posedge clk) begin
+    if(reset) state <= NUMBER_IN;
+    else state <= nextState;
+  end
+
+  always @(posedge clk or posedge reset) begin
+    if(reset) begin
+      for(i=0; i<10; i=i+1) station[i] = 4'b1111;
+      valid <= 0; result1 <= 0;
+      num <= 0;
+      index_1 <= 0;
+      station_index_1 <= 0;
+      sequence_index_1 <= 1;
+    end
+    else begin
+      case(state)
+        NUMBER_IN: begin //read number of coming trains
+          num <= number;
+        end
+        DATA_IN: begin //read data of departure order_1
+          order_1[index_1] <= data1;
+          order_2[index_2] <= data2;
+          if(index_1 == num - 1) index_1 <= 4'd0;
+          else index_1 <= index_1 + 1;
+          if(index_2 == num - 1) index_2 <= 4'd0;
+          else index_2 <= index_2 + 1;
+        end
+        STATION_POP_1: begin //compare top with order_1
+          if(station_index_1 > 0 && station_1[station_index_1_minus_one] == order_1[index_1]) begin
+            station_index_1 <= station_index_1 - 1;
+            index_1 <= index_1 + 1;
+          end
+        end
+        STATION_PUSH_1: begin //push data into stack
+            station_1[station_index_1] <= sequence_index_1;
+            station_index_1 <= station_index_1 + 1;
+            sequence_index_1 <= sequence_index_1 + 1;
+        end
+        OUT_1: begin //output result1
+          if(index_1 == num) result1_reg <= 1;
+        end
+        STATION_POP_2: begin //compare top with order_1
+          if(station_index_2 > 0 && station_2[station_index_2_minus_one] == order_2[index_2]) begin
+            station_index_2 <= station_index_2 - 1;
+            index_2 <= index_2 + 1;
+          end
+        end
+        STATION_PUSH_2: begin //push data into stack
+            station_2[station_index_2] <= sequence_index_2;
+            station_index_2 <= station_index_2 + 1;
+            sequence_index_2 <= sequence_index_2 + 1;
+        end
+        OUT_2: begin //output result1
+          valid <= 1;
+          result1 <= result1_reg;
+          if(index_2 == num) result2 <= 1;
+        end
+        WAIT_2: begin //reset register
+          for(i=0; i<10; i=i+1) station_1[i] <= 4'b1111;
+          valid <= 0;
+          result1 <= 0;
+          index_1 <= 0;
+          station_index_1 <= 0;
+          sequence_index_1 <= 1;
+          for(i=0; i<10; i=i+1) station_2[i] <= 4'b1111;
+          valid <= 0;
+          result2 <= 0;
+          index_2 <= 0;
+          station_index_2 <= 0;
+          sequence_index_2 <= 1;
+          result1_reg <= 0;
+        end
+      endcase
+    end
+  end
+
+endmodule

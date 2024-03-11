@@ -1,0 +1,157 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vBITONIC_AS
+Z0 !s110 1681792088
+!i10b 1
+!s100 KA?<JG:QYEjob=TNmm=Z83
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IiP8=GOU5P_n_j>oQUl@c63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1
+w1681785016
+8C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_AS.v
+FC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_AS.v
+!i122 5
+Z4 L0 1 10
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1681792088.000000
+!s107 C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_AS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_AS.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@b@i@t@o@n@i@c_@a@s
+vBITONIC_DS
+R0
+!i10b 1
+!s100 7<IDHcam?g?Wd>19DYN@k2
+R1
+I2[5j<gS_IH41R47i26aTQ0
+R2
+R3
+w1681785017
+8C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_DS.v
+FC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_DS.v
+!i122 4
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_DS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_DS.v|
+!i113 1
+R7
+R8
+n@b@i@t@o@n@i@c_@d@s
+vBITONIC_S1
+R0
+!i10b 1
+!s100 :eamNchba;>MlMDDRg1d]2
+R1
+I[?i3@mG64V7SFD1UMc6L13
+R2
+R3
+w1681787133
+8C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S1.v
+FC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S1.v
+!i122 3
+L0 1 41
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S1.v|
+!i113 1
+R7
+R8
+n@b@i@t@o@n@i@c_@s1
+vBITONIC_S2
+R0
+!i10b 1
+!s100 LhTkW;FFjU6l@gKT<ETY_3
+R1
+IVaCa:A2jd<InH6lVdBmKY0
+R2
+R3
+w1681787188
+8C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S2.v
+FC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S2.v
+!i122 2
+L0 1 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S2.v|
+!i113 1
+R7
+R8
+n@b@i@t@o@n@i@c_@s2
+vBITONIC_S3
+R0
+!i10b 1
+!s100 853m=X3CC:KOWSHZkiH[Q0
+R1
+Ildd75Q[OE69:jR;ccIFT=1
+R2
+R3
+w1681787443
+8C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S3.v
+FC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S3.v
+!i122 1
+L0 1 59
+R5
+r1
+!s85 0
+31
+Z9 !s108 1681792087.000000
+!s107 C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S3.v|
+!i113 1
+R7
+R8
+n@b@i@t@o@n@i@c_@s3
+vBITONIC_tb
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1681792087
+!i10b 1
+!s100 zM@3RN8PYNgHl_X3Hfz1Y2
+R1
+IOMzz[[jPG1:BWDAFGOXJN0
+R2
+S1
+R3
+w1681783400
+8C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv
+FC:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv
+!i122 0
+L0 13 316
+R5
+r1
+!s85 0
+31
+R9
+!s107 C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv|
+!i113 1
+o-work work -sv
+R8
+n@b@i@t@o@n@i@c_tb

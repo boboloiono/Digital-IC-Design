@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1a
+vAEC
+Z0 !s110 1685415753
+!i10b 1
+!s100 WYW[ZE8BjTlHCmlV9ZS5z1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihb=16M25aZIQfX]ejnLmz2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1b
+w1685415734
+Z4 8C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1b/AEC_reuse.v
+Z5 FC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1b/AEC_reuse.v
+!i122 11
+Z6 L0 1 214
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1685415753.000000
+Z9 !s107 C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1b/AEC_reuse.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1b/AEC_reuse.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@e@c
+vAEC_reuse
+!s110 1685415492
+!i10b 1
+!s100 >TaUio2mh2>Jc6H6CBj?23
+R1
+IFD4i26lD`m9>iFICX^8Za1
+R2
+R3
+w1685415472
+R4
+R5
+!i122 3
+R6
+R7
+r1
+!s85 0
+31
+!s108 1685415492.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@a@e@c_reuse
+vtestfixture
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 Wz8Me;[:RQL<Q95?2EebU2
+R1
+IdR1S>5bU=cUoY[=R9e1>;2
+R2
+S1
+R3
+w1685410758
+8C:\DIC\Meeting Room 6-20230530T013719Z-001\Meeting Room 6\Q1b\testfixture.sv
+FC:\DIC\Meeting Room 6-20230530T013719Z-001\Meeting Room 6\Q1b\testfixture.sv
+!i122 12
+L0 5 173
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\DIC\Meeting Room 6-20230530T013719Z-001\Meeting Room 6\Q1b\testfixture.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\DIC\Meeting Room 6-20230530T013719Z-001\Meeting Room 6\Q1b\testfixture.sv|
+!i113 1
+o-work work -sv
+R12

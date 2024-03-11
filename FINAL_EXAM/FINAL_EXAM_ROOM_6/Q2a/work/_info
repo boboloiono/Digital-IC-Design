@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q1b
+vCONV3x3
+Z0 !s110 1685417032
+!i10b 1
+!s100 7FPbWU`^<oVlHj2CRi2c52
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZFS7zE2Yo?M6lTQm[`>8D0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a
+w1685417023
+8C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/CONV3x3.v
+FC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/CONV3x3.v
+!i122 15
+L0 2 177
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1685417032.000000
+!s107 C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/CONV3x3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/CONV3x3.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@c@o@n@v3x3
+vtestfixture
+R0
+!i10b 1
+!s100 PIdcYDziGDKQ9UBdY8XN:3
+R1
+I1Ifc3J_[eEzLMMbCZiFIn2
+R2
+R3
+w1685416778
+8C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/testfixture.v
+FC:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/testfixture.v
+!i122 16
+L0 9 173
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/testfixture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/Meeting Room 6-20230530T013719Z-001/Meeting Room 6/Q2a/testfixture.v|
+!i113 1
+R6
+R7

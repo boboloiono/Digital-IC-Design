@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\at112\Desktop\DIC\HW4
+vBOE
+Z1 IO:c@gYk46TW25LI[TI3ec0
+Z2 V;mS3?2Ck7<Y>cWc1WcccQ1
+Z3 dC:\Users\at112\Desktop\DIC\midterm_sol\mid_example\example
+Z4 w1651681781
+Z5 8C:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE.v
+Z6 FC:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@b@o@e
+!i10b 1
+Z10 !s100 4WU:Pb`ROZmNM9T6IemYa2
+!s85 0
+Z11 !s108 1653287221.412000
+Z12 !s107 C:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE.v|
+!s101 -O0
+vtestfixture
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 OmGg2]:Ae?QTIzWHzYYR`2
+I<OA:KPzHR9?5G4cOZonPJ1
+VKBIIT=eCh7cJh[^JXBGX00
+!s105 BOE_tb_sv_unit
+S1
+R3
+R4
+8C:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE_tb.sv
+FC:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE_tb.sv
+L0 7
+R7
+r1
+!s85 0
+31
+!s108 1653287221.475000
+!s107 C:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/at112/Desktop/DIC/midterm_sol/mid_example/example/BOE_tb.sv|
+!s101 -O0
+o-work work -sv -O0

@@ -1,0 +1,43 @@
+{C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S2.v} {1 {vlog -work work -stats=none {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BITONIC_S2
+
+Top level modules:
+	BITONIC_S2
+
+} {} {}} {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv} {1 {vlog -work work -sv -stats=none {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BITONIC_tb
+
+Top level modules:
+	BITONIC_tb
+
+} {} {}} {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S3.v} {1 {vlog -work work -stats=none {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BITONIC_S3
+
+Top level modules:
+	BITONIC_S3
+
+} {} {}} {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_DS.v} {1 {vlog -work work -stats=none {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_DS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BITONIC_DS
+
+Top level modules:
+	BITONIC_DS
+
+} {} {}} {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S1.v} {1 {vlog -work work -stats=none {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_S1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BITONIC_S1
+
+Top level modules:
+	BITONIC_S1
+
+} {} {}} {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_AS.v} {1 {vlog -work work -stats=none {C:/DIC/Meeting Room 6-20230418T020258Z-001/Meeting Room 6/Q1/BITONIC_AS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BITONIC_AS
+
+Top level modules:
+	BITONIC_AS
+
+} {} {}}
