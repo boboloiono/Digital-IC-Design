@@ -1,0 +1,16 @@
+Fitter Status : Failed - Tue May 23 00:49:18 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : ATCONV
+Top-level Entity Name : ATCONV
+Family : Cyclone IV E
+Device : EP4CE55F23A7
+Timing Models : Final
+Total logic elements : 556,446 / 55,856 ( 996 % )
+    Total combinational functions : 543,160 / 55,856 ( 972 % )
+    Dedicated logic registers : 126,768 / 55,856 ( 227 % )
+Total registers : 126768
+Total pins : 85 / 325 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 0 / 2,396,160 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

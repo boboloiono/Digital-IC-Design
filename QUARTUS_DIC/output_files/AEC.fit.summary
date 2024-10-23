@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Apr 24 22:34:13 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : AEC
+Top-level Entity Name : AEC
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 1,177 / 6,272 ( 19 % )
+    Total combinational functions : 1,088 / 6,272 ( 17 % )
+    Dedicated logic registers : 409 / 6,272 ( 7 % )
+Total registers : 409
+Total pins : 19 / 92 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 1 / 30 ( 3 % )
+Total PLLs : 0 / 2 ( 0 % )

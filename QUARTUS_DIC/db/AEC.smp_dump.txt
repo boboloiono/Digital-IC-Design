@@ -1,0 +1,8 @@
+
+State Machine - |AEC|state
+Name state.CALCULATOR state.POSTFIX state.DATA_IN state.IDLE state.RESULT 
+state.IDLE 0 0 0 0 0 
+state.DATA_IN 0 0 1 1 0 
+state.POSTFIX 0 1 0 1 0 
+state.CALCULATOR 1 0 0 1 0 
+state.RESULT 0 0 0 1 1 

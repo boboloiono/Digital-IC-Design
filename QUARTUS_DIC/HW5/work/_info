@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/DIC/HW5/file
+vdemosaic
+Z0 !s110 1686410824
+!i10b 1
+!s100 b`zZ0n1Oig:b`0Q`YSi;F2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie5Gc0aY;lICBFFBXAL8d]0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/QUARTUS_DIC/HW5
+Z4 w1686409842
+Z5 8C:/QUARTUS_DIC/HW5/demosaic.vo
+Z6 FC:/QUARTUS_DIC/HW5/demosaic.vo
+!i122 14
+L0 32 12422
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1686410824.000000
+!s107 C:/QUARTUS_DIC/HW5/demosaic.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/QUARTUS_DIC/HW5/demosaic.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vhard_block
+R0
+!i10b 1
+!s100 T_m7>D]3CU63hmV05]5nC2
+R1
+IDlQTJgTGZ1J@KgGWo;>Oc2
+R2
+R3
+R4
+R5
+R6
+!i122 14
+L0 12455 34
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/QUARTUS_DIC/HW5/demosaic.vo|
+R9
+!i113 1
+R10
+R11
+vtestfixture
+R0
+!i10b 1
+!s100 CYK3TVNT2g1n6KgG7k1aP2
+R1
+Io8:gC9;2]6?;iCVhSngmZ1
+R2
+R3
+w1686409579
+8C:/DIC/HW5/file/testfixture.v
+FC:/DIC/HW5/file/testfixture.v
+!i122 13
+L0 8 142
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/DIC/HW5/file/testfixture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/DIC/HW5/file/testfixture.v|
+!i113 1
+R10
+R11

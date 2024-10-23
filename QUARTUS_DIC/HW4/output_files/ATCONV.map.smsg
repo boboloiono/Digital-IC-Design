@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at ATCONV.v(42): always construct contains both blocking and non-blocking assignments File: C:/DIC/HW4/file/ATCONV.v Line: 42
+Info (10281): Verilog HDL Declaration information at ATCONV.v(6): object "ready" differs only in case from object "READY" in the same scope File: C:/DIC/HW4/file/ATCONV.v Line: 6

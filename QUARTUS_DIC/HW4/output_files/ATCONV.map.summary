@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 23 00:42:32 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : ATCONV
+Top-level Entity Name : ATCONV
+Family : Cyclone IV E
+Total logic elements : 556,446
+    Total combinational functions : 543,160
+    Dedicated logic registers : 126,768
+Total registers : 126768
+Total pins : 85
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

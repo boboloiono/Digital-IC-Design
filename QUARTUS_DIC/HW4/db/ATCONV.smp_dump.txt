@@ -1,0 +1,15 @@
+
+State Machine - |ATCONV|state
+Name state.WAIT state.LAYER_2_WRITE state.ROUND_UP state.MAX_POOLING state.LAYER_1_WRITE state.RELU state.CONVOLUTION state.PADDING3 state.PADDING2 state.PADDING state.IMAGE_MEM state.READY 
+state.READY 0 0 0 0 0 0 0 0 0 0 0 0 
+state.IMAGE_MEM 0 0 0 0 0 0 0 0 0 0 1 1 
+state.PADDING 0 0 0 0 0 0 0 0 0 1 0 1 
+state.PADDING2 0 0 0 0 0 0 0 0 1 0 0 1 
+state.PADDING3 0 0 0 0 0 0 0 1 0 0 0 1 
+state.CONVOLUTION 0 0 0 0 0 0 1 0 0 0 0 1 
+state.RELU 0 0 0 0 0 1 0 0 0 0 0 1 
+state.LAYER_1_WRITE 0 0 0 0 1 0 0 0 0 0 0 1 
+state.MAX_POOLING 0 0 0 1 0 0 0 0 0 0 0 1 
+state.ROUND_UP 0 0 1 0 0 0 0 0 0 0 0 1 
+state.LAYER_2_WRITE 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WAIT 1 0 0 0 0 0 0 0 0 0 0 1 

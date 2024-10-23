@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at AEC.v(64): always construct contains both blocking and non-blocking assignments File: C:/DIC/HW3/file/AEC.v Line: 64
+Info (10281): Verilog HDL Declaration information at AEC.v(11): object "result" differs only in case from object "RESULT" in the same scope File: C:/DIC/HW3/file/AEC.v Line: 11

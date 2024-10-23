@@ -1,0 +1,6 @@
+
+State Machine - |demosaic|state
+Name state.DATA_IN state.RESULT state.BILINEAR 
+state.DATA_IN 0 0 0 
+state.BILINEAR 1 0 1 
+state.RESULT 1 1 0 
